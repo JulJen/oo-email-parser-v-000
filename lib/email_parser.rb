@@ -18,19 +18,4 @@ binding.pry
     name = emails.split(/[ ,]+/)
   #   name.detect { |x| x.name == name}
   end
-
-
-
-#   emails = "john@doe.com, person@somewhere.org"
-
-# parser = EmailParser.new(emails)
-#
-# parser.parse
-
-
-    # it "parses CSV emails" do
-    #   expect(EmailParser.new("avi@test.com, arel@test.com").parse).to eq(["avi@test.com", "arel@test.com"])
-
-
-
 end
