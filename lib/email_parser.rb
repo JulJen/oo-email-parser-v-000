@@ -12,10 +12,11 @@ class EmailParser
     @emails = emails
   end
 
-  def parse(name)
+  def parse
+    name = emails.split(/[ ,]+/)
   #   name.detect { |x| x.name == name}
   end
-    # email = name.split(/[ ,]+/)
+
 
 
 #   emails = "john@doe.com, person@somewhere.org"
