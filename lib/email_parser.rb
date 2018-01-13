@@ -10,13 +10,11 @@ class EmailParser
 
   def initalize(emails)
     @emails = emails
-  end 
+  end
 
-
-
-  # def parse(name)
+  def parse(name)
   #   name.detect { |x| x.name == name}
-  # end
+  end
     # email = name.split(/[ ,]+/)
 
 
