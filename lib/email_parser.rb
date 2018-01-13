@@ -13,6 +13,8 @@ class EmailParser
   end
 
   def parse
+
+binding.pry
     name = emails.split(/[ ,]+/)
   #   name.detect { |x| x.name == name}
   end
